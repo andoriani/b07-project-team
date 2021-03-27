@@ -4,3 +4,71 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* Mohamad Try Murdianto */
+
+
+/* Muhammad Haikal Fikri */
+
+
+/* Chika Andriani */
+main {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.tentang h1 {
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.flex-container {
+	display: inline-flex;
+	justify-content: flex-start;
+	gap: 20px;
+}
+
+dl {
+	flex: 3;
+}
+
+dt {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+dd {
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+button {
+	font-size: 15px;
+	color: brown;
+	background-color: rgba (222, 184, 135, 0.5);
+	padding: 12px 24px;
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+button:hover {
+	background-color: rgba (222, 184, 135, 0.8);
+}
+
+aside {
+	flex: 2;
+}
+
+aside img {
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Rezki Destiana */
+
+
+/* Eka Wulansari */
+
