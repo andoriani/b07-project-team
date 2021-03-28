@@ -274,13 +274,6 @@ header {
     padding-top: 150px;
 }
 
-@media (max-width: 768px) {
-    .title {
-        width: 100%;
-        padding: 125px 0;
-    }
-}
-
 /* Chika Andriani */
 section {
   margin: 10px 0;

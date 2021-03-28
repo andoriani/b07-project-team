@@ -14,7 +14,13 @@
   .box {
     width: 100%;
   }
+
   .text-box {
     top: 20%;
+  }
+
+  .title {
+    width: 100%;
+    padding: 125px 0;
   }
 }
