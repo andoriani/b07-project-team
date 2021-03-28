@@ -1,0 +1,20 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .text-box {
+    top: 5%;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .box-layanan {
+    flex-wrap: wrap;
+  }
+
+  .box {
+    width: 100%;
+  }
+  .text-box {
+    top: 20%;
+  }
+}

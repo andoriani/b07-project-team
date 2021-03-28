@@ -1,339 +1,397 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* Mohamad Try Murdianto */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
-    display: flex;
-    height: 80px;
-    width: 100%;
-    background: rgba(42, 42, 42, 0.9);
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 50px 0 100px;
-    flex-wrap: wrap;
-    align-content: center;
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: rgba(42, 42, 42, 0.9);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 nav .logo {
-    color: #fff;
-    font-size: 35px;
-    font-weight: 600;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
 }
 
 nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
 }
 
 nav ul li {
-    margin: 0 5px;
+  margin: 0 5px;
 }
 
 nav ul li a {
-    color: #f2f2f2;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 15px;
-    border-radius: 5px;
-    letter-spacing: 1px;
-    transition: all 0.3s ease;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
 }
 
 nav ul li a.active,
 nav ul li a:hover {
-    color: #111;
-    background: rgba(247, 188, 88, 0.9);
+  color: #111;
+  background: rgba(247, 188, 88, 0.9);
 }
 
 nav .menu-btn i {
-    color: #fff;
-    font-size: 22px;
-    cursor: pointer;
-    display: none;
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
 }
 
 input[type="checkbox"] {
-    display: none;
+  display: none;
 }
 
 @media (max-width: 1000px) {
-    nav {
-        padding: 0 40px 0 50px;
-    }
+  nav {
+    padding: 0 40px 0 50px;
+  }
 }
 
 @media (max-width: 920px) {
-    nav .menu-btn i {
-        display: block;
-    }
+  nav .menu-btn i {
+    display: block;
+  }
 
-    #click:checked~.menu-btn i:before {
-        content: "\f00d";
-    }
+  #click:checked ~ .menu-btn i:before {
+    content: "\f00d";
+  }
 
-    nav ul {
-        position: fixed;
-        top: 80px;
-        left: -100%;
-        background: #111;
-        height: 100vh;
-        width: 100%;
-        text-align: center;
-        display: block;
-        transition: all 0.3s ease;
-    }
+  nav ul {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #111;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
 
-    #click:checked~ul {
-        left: 0;
-    }
+  #click:checked ~ ul {
+    left: 0;
+  }
 
-    nav ul li {
-        width: 100%;
-        margin: 40px 0;
-    }
+  nav ul li {
+    width: 100%;
+    margin: 40px 0;
+  }
 
-    nav ul li a {
-        width: 100%;
-        margin-left: -100%;
-        display: block;
-        font-size: 20px;
-        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    }
+  nav ul li a {
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
 
-    #click:checked~ul li a {
-        margin-left: 0px;
-    }
-
+  #click:checked ~ ul li a {
+    margin-left: 0px;
+  }
 }
 
 footer {
-    width: 100%;
-    background-color: rgba(42, 42, 42, 0.9);
+  width: 100%;
+  background-color: rgba(42, 42, 42, 0.9);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    color: #d9d9d9;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #d9d9d9;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main-content {
-    display: flex;
+  display: flex;
 }
 
 .main-content .box {
-    flex-basis: 50%;
-    padding: 10px 20px;
+  flex-basis: 50%;
+  padding: 10px 20px;
 }
 
 .box h2 {
-    font-size: 1.125rem;
-    font-weight: 600;
-    text-transform: uppercase;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .box .content {
-    margin: 20px 0 0 0;
-    position: relative;
+  margin: 20px 0 0 0;
+  position: relative;
 }
 
 .box .content:before {
-    position: absolute;
-    content: '';
-    top: -10px;
-    height: 2px;
-    width: 100%;
-    background-color: rgba(42, 42, 42, 0.9);
+  position: absolute;
+  content: "";
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background-color: rgba(42, 42, 42, 0.9);
 }
 
 .box .content:after {
-    position: absolute;
-    content: '';
-    height: 2px;
-    width: 15%;
-    background-color: rgba(247, 188, 88, 0.9);
-    top: -10px;
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 15%;
+  background-color: rgba(247, 188, 88, 0.9);
+  top: -10px;
 }
 
 .left .content p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .center .content .fas {
-    font-size: 1.4375rem;
-    background: #1a1a1a;
-    height: 45px;
-    width: 45px;
-    line-height: 45px;
-    text-align: center;
-    border-radius: 50%;
-    transition: 0.3s;
-    cursor: pointer;
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .center .content .fas:hover {
-    background-color: rgba(247, 188, 88, 0.9);
+  background-color: rgba(247, 188, 88, 0.9);
 }
 
 .center .content .text {
-    font-size: 1.0625rem;
-    font-weight: 500;
-    padding-left: 10px;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
 }
 
 .center .content .phone {
-    margin: 15px 0;
+  margin: 15px 0;
 }
 
 .right form .text {
-    font-size: 1.0625rem;
-    margin-bottom: 2px;
-    color: #d9d9d9;
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #d9d9d9;
 }
 
 .right form .msg {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .right form input,
 .right form textarea {
-    width: 100%;
-    font-size: 1.0625rem;
-    background: #151515;
-    padding-left: 10px;
-    border: 1px solid #222222;
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #151515;
+  padding-left: 10px;
+  border: 1px solid #222222;
 }
 
 .bottom center {
-    padding: 5px;
-    font-size: 0.9375rem;
-    background: #151515;
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
 }
 
 .bottom center span {
-    color: #656565;
+  color: #656565;
 }
 
 .bottom center a {
-    color: rgba(247, 188, 88, 0.9);
-    text-decoration: none;
+  color: rgba(247, 188, 88, 0.9);
+  text-decoration: none;
 }
 
 .bottom center a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 900px) {
-    footer {
-        position: relative;
-        bottom: 0px;
-    }
+  footer {
+    position: relative;
+    bottom: 0px;
+  }
 
-    .main-content {
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 
-    .main-content .box {
-        margin: 5px 0;
-    }
+  .main-content .box {
+    margin: 5px 0;
+  }
 }
 
 /* Muhammad Haikal Fikri */
 
-
 /* Chika Andriani */
 section {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 main {
-	margin: 0 auto;
-	width: 80%;
+  margin: 0 auto;
+  width: 80%;
 }
 
 #tentang h1 {
-    color: black;
-	margin-bottom: 20px;
-	text-align: center;
-	font-size: 30px;
-    position: relative;
+  color: black;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
 }
 
 .flex-container {
-	display: inline-flex;
-	justify-content: flex-start;
-	gap: 20px;
+  display: inline-flex;
+  justify-content: flex-start;
+  gap: 20px;
 }
 
 dl {
-	flex: 3;
+  flex: 3;
 }
 
 dt {
-    color: black;
-    line-height: 2em;
-	font-size: 20px;
-	font-weight: bold;
+  color: black;
+  line-height: 2em;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 dd {
-	text-align: justify;
-	margin-bottom: 10px;
-    color:#707070;
+  text-align: justify;
+  margin-bottom: 10px;
+  color: #707070;
 }
 
 button {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background: rgba(247, 188, 88, 0.9);
-	font-size: 15px;
-	color: #111;
-	background-color: rgba (222, 184, 135, 0.5);
-	padding: 12px 24px;
-	display: block;
-	margin: 0 auto;
-	cursor: pointer;
-	margin-top: 30px;
-    border:  0;
-    border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: rgba(247, 188, 88, 0.9);
+  font-size: 15px;
+  color: #111;
+  background-color: rgba (222, 184, 135, 0.5);
+  padding: 12px 24px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 30px;
+  border: 0;
+  border-radius: 10px;
 }
 
-button:hover  {
-    background: rgba(250, 190, 90, 1);
+button:hover {
+  background: rgba(250, 190, 90, 1);
 }
 
 aside {
-	flex: 2;
+  flex: 2;
 }
 
 aside img {
-	width: 100%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media only screen and (max-width: 768px) {
-    .flex-container {
-        flex-direction: column-reverse;
-    }
+  .flex-container {
+    flex-direction: column-reverse;
+  }
 }
 
 /* Rezki Destiana */
+.layanan {
+  padding: 50px 0 50px 0;
+  text-align: center;
+  width: 100%;
+}
 
+.layanan h1 {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.layanan h2 {
+  margin-top: 0px;
+  font-size: 20px;
+  color: gray;
+  font-weight: normal;
+}
+
+.box-layanan {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  flex: auto;
+  text-align: center;
+  display: block;
+  margin: 10px 10px;
+  width: 100%;
+  position: relative;
+}
+
+.box img {
+  width: 100%;
+  border: rgba(0, 0, 0, 0.2);
+}
+
+.text-box {
+  top: 35%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.4;
+}
+
+.text-box h5 {
+  font-size: 16x;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  color: black;
+}
+
+.text-box p {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0 10px;
+  color: black;
+}
+
+.text-box:hover {
+  opacity: 1;
+}
 
 /* Eka Wulansari */
-
