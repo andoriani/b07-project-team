@@ -255,7 +255,32 @@ footer {
 }
 
 /* Muhammad Haikal Fikri */
+.top {
+    height: 500px;
+    background-image: url('../image/top.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-left: 100px;
+}
 
+header {
+    width: 100vw;
+}
+
+.title {
+    color: #fff;
+    font-size: 48px;
+    width: 50%;
+    padding-top: 150px;
+}
+
+@media (max-width: 768px) {
+    .title {
+        width: 100%;
+        padding: 125px 0;
+    }
+}
 
 /* Chika Andriani */
 section {
