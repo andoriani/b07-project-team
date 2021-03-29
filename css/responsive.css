@@ -7,6 +7,18 @@
   footer .content {
     width: 33.3%;
   }
+
+  .team-b07 {
+    width: 50%;
+  }
+
+  .team {
+    height: 650px;
+  }
+
+  .top {
+    padding-left: 50px;
+  }
 }
 
 /* Untuk Smartphone */
@@ -48,5 +60,13 @@
 
   .team-b07 {
     width: 100%;
+  }
+
+  .team-b07 {
+    width: 100%;
+  }
+
+  .team {
+    height: 900px;
   }
 }
