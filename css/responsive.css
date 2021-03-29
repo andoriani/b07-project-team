@@ -3,6 +3,18 @@
   .text-box {
     top: 5%;
   }
+
+  .team-b07 {
+    width: 50%;
+  }
+
+  .team {
+    height: 650px;
+  }
+
+  .top {
+    padding-left: 50px;
+  }
 }
 
 /* Untuk Smartphone */
@@ -22,5 +34,13 @@
   .title {
     width: 100%;
     padding: 125px 0;
+  }
+
+  .team-b07 {
+    width: 100%;
+  }
+
+  .team {
+    height: 900px;
   }
 }
