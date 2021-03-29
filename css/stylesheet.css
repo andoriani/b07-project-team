@@ -6,13 +6,6 @@ body {
 }
 
 /* Mohamad Try Murdianto */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 nav {
   display: flex;
   height: 80px;
@@ -118,9 +111,37 @@ input[type="checkbox"] {
   }
 }
 
+.section-title {
+  width: 40px;
+  height: 3px;
+  background-color: rgb(247, 188, 88);
+}
+
 footer {
+  clear: both;
   width: 100%;
   background-color: rgba(42, 42, 42, 0.9);
+  display: flex;
+  flex-direction: column;
+}
+
+footer .container {
+  padding: 20px;
+  min-height: 200px;
+}
+
+footer .content {
+  width: 33.33%;
+  float: left;
+}
+
+.content li, p {
+  list-style-type: none;
+  padding: 10px 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 * {
@@ -237,7 +258,7 @@ footer {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   footer {
     position: relative;
     bottom: 0px;
@@ -251,6 +272,10 @@ footer {
   .main-content .box {
     margin: 5px 0;
   }
+
+  .foothead {
+    font-size: 24px;
+  }
 }
 
 /* Muhammad Haikal Fikri */
@@ -261,10 +286,15 @@ footer {
   background-attachment: fixed;
   background-repeat: no-repeat;
   padding-left: 100px;
+  text-align: left;
+}
+
+.top button {
+  display: inline-block;
 }
 
 header {
-  width: 100vw;
+  width: 100%;
 }
 
 .title {
